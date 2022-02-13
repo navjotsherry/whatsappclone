@@ -1,0 +1,89 @@
+.chat{
+    display: flex;
+    flex-direction: column;
+    flex:.65;
+}
+
+.chatHeader{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    padding: 7px;
+    border-bottom: 1px solid lightgray;
+}
+
+.chatHeaderLeft{
+    display: flex;
+    align-items: center;
+}
+
+.chatHeaderInfo{
+    margin-left: 2px;
+}
+
+.chatHeaderRight{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chatBody{
+    background-image: url(https://user-images.githubusercontent.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png);
+    background-repeat: repeat;
+    height:435px;
+    border-bottom: 1px solid lightgray;
+}
+
+.chatMessage{
+    position: relative;
+    font-size: 16px;
+    padding: 10px;
+    background-color: #ffffff;
+    width: fit-content;
+    border-radius: 10px;
+    margin: 30px;
+    max-width: 400px;
+}
+
+.chatSenderName{
+    position: absolute;
+    top: 0px;
+    font-weight: 800;
+    font-size: xx-small;
+}
+
+.chatTimeStamp{
+    margin-left: 10px;
+    font-size: xx-small;
+}
+
+.chatReceiver{
+    margin-left: auto;
+    background-color: #dcf8c6;
+}
+
+.chatFooter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 5px;
+}
+
+.chatFooter > form {
+    margin: auto;
+    display: flex;
+    flex:1;
+}
+
+.chatFooter > form > input {
+    padding: 5px;
+    flex:1;
+    border-radius: 10px;
+}
+
+
+.chatFooter > form > button {
+    display: none;
+}
+

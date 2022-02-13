@@ -1,0 +1,37 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    flex:0.35;
+    border-right: 2px solid grey;
+}
+
+.sidebarHeader{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.sidebarHeaderRight{
+    justify-content: space-between;
+    min-width:10vw;
+}
+
+.searchBox{
+    display: flex;
+    align-items: center;
+    border:1px solid gray;
+    border-radius: 10px;
+    margin:10px 2px;
+}
+
+.searchBox>input{
+    border:none;
+    flex:0.9;
+    outline: none;
+    height: 5vh;
+    
+}
+
+.searchBox .MuiSvgIcon-root{
+    color:gray;
+}
